@@ -120,7 +120,7 @@ int main()
     int burst_time[] = {10, 5, 8};
  
     // Time quantum
-    int quantum = 2;
+    int quantum = 3;
     findavgTime(processes, n, burst_time, quantum);
     return 0;
 }
